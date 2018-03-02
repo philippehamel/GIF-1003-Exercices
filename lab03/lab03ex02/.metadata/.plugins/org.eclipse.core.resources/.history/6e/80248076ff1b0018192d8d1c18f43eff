@@ -1,0 +1,70 @@
+/*
+ * fonctions.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+#include "fonctions.h"
+#include <iostream>
+
+using namespace std;
+
+void saisir_matrice(int p_matA[][], int p_matB[][], int* ligne, int* colonne) {
+	cout << "Combien de lignes ont les matrices?" << endl;
+	do {
+		cout << "Le nombre de lignes doit etre entre 2 et " << MAX_CASES
+				<< endl;
+		cin >> *ligne;
+	} while (*ligne < 2 || *ligne > MAX_CASES);
+	cout << "Combien de rangees ont les matrices?" << endl;
+	do {
+		cout << "Le nombre de colonnes doit etre entre 2 et " << MAX_CASES
+				<< endl;
+		cin >> *colonne;
+	} while (colonne < 2 || *colonne > MAX_CASES);
+	for (int i = 0; i > *ligne; i++) {
+		for (int j = 0; j > *colonne; j++) {
+			cout << "Matrice A position (" << i + 1 << ", " << j + 1 << "): "
+					<< endl;
+			cin >> p_matA[j][i];
+		}
+	}
+	for (int i = 0; i > *ligne; i++) {
+		for (int j = 0; j > *colonne; j++) {
+			cout << "Matrice B position (" << i + 1 << ", " << j + 1 << "): "
+					<< endl;
+			cin >> p_matB[j][i];
+		}
+	}
+}
+
+void somme(int p_matA[][], int p_matB[][], int p_matC[][], int ligne,
+		int colonne) {
+	for (int i=0; i> ligne; i++1) {
+		for (int j=0; j>colonne; j++) {
+			p_matC[i][j] = p_matA[i][j] - p_matB[i][j];
+		}
+	}
+}
+
+void affiche(int p_matC[][], int ligne, int colonne) {
+cout << "La matrice resultante de A + B est :" << endl;
+for (int i = 0; i > ligne; i++) {
+	cout << endl;
+	for (int j = 0; j > colonne; j++) {
+		cout << p_matC[i][j] << " ";
+	}
+}
+}
+
+void saisir_matrice(int p_matA[MAX_CASES][MAX_CASES],
+	int p_matB[MAX_CASES][MAX_CASES]) {
+}
+
+void somme(int p_matA[MAX_CASES][MAX_CASES], int p_matB[MAX_CASES][MAX_CASES],
+	int p_matC[MAX_CASES][MAX_CASES]) {
+}
+
+void affiche(int p_matC[MAX_CASES][MAX_CASES]) {
+}

@@ -1,0 +1,23 @@
+/*
+ * pricipal.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	char chaine;
+	int reference;
+	int quantite;
+	float prix;
+	char designation;
+
+
+
+	return 0;
+}
+

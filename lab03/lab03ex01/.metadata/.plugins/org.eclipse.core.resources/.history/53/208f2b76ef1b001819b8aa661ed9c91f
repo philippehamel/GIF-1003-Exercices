@@ -1,0 +1,28 @@
+/*
+ * fonction.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+#include <iostream>
+#include "fonction.h"
+
+void saisi_donnees(int* p_nb, int p_tableau[]) {
+	cout << "Quel est la taille du tableau?" << endl;
+	cout << "Choisis un nombre entre 0 et " << MAX_CASES <<" :" << endl;
+
+}
+
+
+float moyenne(int p_nb, int p_tableau[]) {
+}
+
+
+void affichage(int p_nb, float p_moy, int p_tableau[]) {
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+10:43:13 **** Incremental Build of configuration Debug for project Exercice_6 ****
+make all 
+Building file: ../Exercice_6.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++03 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Exercice_6.d" -MT"Exercice_6.o" -o "Exercice_6.o" "../Exercice_6.cpp"
+Finished building: ../Exercice_6.cpp
+ 
+Building target: Exercice_6
+Invoking: GCC C++ Linker
+g++  -o "Exercice_6"  ./Exercice_6.o   
+Finished building target: Exercice_6
+ 
+
+10:43:14 Build Finished (took 361ms)
+

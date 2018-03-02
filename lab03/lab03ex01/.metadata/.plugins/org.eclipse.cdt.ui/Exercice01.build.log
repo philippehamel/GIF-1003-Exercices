@@ -1,0 +1,15 @@
+14:32:15 **** Incremental Build of configuration Debug for project Exercice01 ****
+make all 
+Building file: ../fonction.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++03 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fonction.d" -MT"fonction.o" -o "fonction.o" "../fonction.cpp"
+Finished building: ../fonction.cpp
+ 
+Building target: Exercice01
+Invoking: GCC C++ Linker
+g++  -o "Exercice01"  ./fonction.o ./principal.o   
+Finished building target: Exercice01
+ 
+
+14:32:16 Build Finished (took 360ms)
+

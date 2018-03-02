@@ -1,0 +1,27 @@
+/*
+ * fonctions.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+#include "fonctions.h"
+#include <iostream>
+
+using namespace std;
+
+void saisir_matrice(int p_matA, int p_matB) {
+
+}
+
+
+void somme(int p_matA, int p_matB, int p_matC) {
+}
+
+
+void affiche(int p_matC) {
+}
+
+
+
+

@@ -1,0 +1,46 @@
+13:55:31 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+Building target: lab1
+Invoking: GCC C++ Linker
+g++  -o "lab1"  ./src/Bug_1.o ./src/Bug_2.o ./src/Bug_3.o ./src/Bug_4.o ./src/Bug_5.o ./src/lab1.o   
+./src/Bug_2.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_2.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_3.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_3.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_4.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_4.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_5.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_5.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+makefile:45 : la recette pour la cible « lab1 » a échouée
+./src/lab1.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/lab1.cpp:12 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+collect2: error: ld returned 1 exit status
+make: *** [lab1] Erreur 1
+13:55:56 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+Building target: lab1
+Invoking: GCC C++ Linker
+g++  -o "lab1"  ./src/Bug_1.o ./src/Bug_2.o ./src/Bug_3.o ./src/Bug_4.o ./src/Bug_5.o ./src/lab1.o   
+./src/Bug_2.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_2.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_3.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_3.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_4.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_4.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/Bug_5.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_5.cpp:7 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+./src/lab1.o : Dans la fonction « main » :
+/mnt/hgfs/MV/lab01/lab1/Debug/../src/lab1.cpp:12 : définitions multiples de « main »
+./src/Bug_1.o:/mnt/hgfs/MV/lab01/lab1/Debug/../src/Bug_1.cpp:7 : défini pour la première fois ici
+collect2: error: ld returned 1 exit status
+makefile:45 : la recette pour la cible « lab1 » a échouée
+make: *** [lab1] Erreur 1

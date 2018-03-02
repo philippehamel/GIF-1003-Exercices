@@ -1,0 +1,18 @@
+void saisi_donnees(int* p_nb, int p_tableau[]) {
+}
+
+float moyenne(int p_nb, int p_tableau[]) {
+}
+
+void affichage(int p_nb, float p_moy, int p_tableau[]) {
+}
+/*
+ * fonction.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+
+
+

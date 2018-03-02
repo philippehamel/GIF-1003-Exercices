@@ -1,0 +1,26 @@
+/*
+ * principal.cpp
+ *
+ *  Created on: 2018-02-27
+ *      Author: etudiant
+ */
+
+#include "fonctions.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int matA[MAX_CASES][MAX_CASES];
+	int matB[MAX_CASES][MAX_CASES];
+	int matC[MAX_CASES][MAX_CASES];
+	int ligne;
+	int colonne;
+
+	saisir_matrice(matA, matB, &ligne, &colonne);
+	somme(matA, matB, matC, ligne, colonne);
+	affiche(matC, ligne, colonne);
+
+	return 0;
+}
+

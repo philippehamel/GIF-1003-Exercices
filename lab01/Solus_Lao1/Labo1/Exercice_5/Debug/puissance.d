@@ -1,0 +1,1 @@
+puissance.o: ../puissance.cpp

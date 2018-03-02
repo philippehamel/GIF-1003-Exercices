@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : ex1.cpp
+// Author      : Philippe
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	do{
+		cout<<"Entrez un entier positif : "<<endl;
+		cin>>n;
+		cout<<"L'entier que vous avez choisi est : "<<n<<endl;
+		}while(n<=0);
+	cout<<"You chose wisely!"
+}

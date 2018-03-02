@@ -1,0 +1,33 @@
+/*
+ * Sphere.cpp
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#include "Sphere.h"
+#include <cmath>
+
+namespace math {
+
+Sphere::Sphere(double p_rayon = 0) {
+	m_rayon(p_rayon);
+}
+
+double Sphere::reqRayon() const {
+	return m_rayon;
+}
+
+void Sphere::asgRayon(double p_nouveauRayon) {
+}
+
+double Sphere::volumeSphere() const {
+	double volume;
+	volume = (4.0 / 3.0) * (3.14159 * pow(m_rayon, 3));
+	return volume;
+}
+
+std::string Sphere::reqVolumeFormate() const {
+}
+
+} /* namespace math */

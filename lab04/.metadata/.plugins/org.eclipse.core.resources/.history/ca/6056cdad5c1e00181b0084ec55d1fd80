@@ -1,0 +1,36 @@
+/*
+ * Sphere.cpp
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#include "Sphere.h"
+
+namespace math {
+
+Sphere::Sphere() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Sphere::~Sphere() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace math */
+
+math::Sphere::Sphere(double p_rayon) {
+}
+
+double math::Sphere::reqRayon() const {
+}
+
+void math::Sphere::asgRayon(double p_nouveauRayon) {
+}
+
+double math::Sphere::volumeSphere() const {
+}
+
+std::string math::Sphere::reqVolumeFormate() const {
+}

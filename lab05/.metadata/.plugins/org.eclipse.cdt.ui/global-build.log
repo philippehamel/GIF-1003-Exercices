@@ -1,0 +1,36 @@
+11:32:08 **** Incremental Build of configuration Debug for project ProjetTemps ****
+make all 
+Building file: ../Temps.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Temps.d" -MT"Temps.o" -o "Temps.o" "../Temps.cpp"
+In file included from ../Temps.cpp:8:0:
+../Temps.h: In constructor ‘labo::Temps::Temps(int, int, int)’:
+../Temps.h:36:6: warning: ‘labo::Temps::m_heure’ will be initialized after [-Wreorder]
+  int m_heure;
+      ^
+../Temps.h:35:6: warning:   ‘int labo::Temps::m_minute’ [-Wreorder]
+  int m_minute;
+      ^
+../Temps.cpp:32:1: warning:   when initialized here [-Wreorder]
+ Temps::Temps(int p_heure, int p_minute, int p_seconde) :
+ ^
+In file included from ../Temps.cpp:8:0:
+../Temps.h:35:6: warning: ‘labo::Temps::m_minute’ will be initialized after [-Wreorder]
+  int m_minute;
+      ^
+../Temps.h:34:6: warning:   ‘int labo::Temps::m_seconde’ [-Wreorder]
+  int m_seconde;
+      ^
+../Temps.cpp:32:1: warning:   when initialized here [-Wreorder]
+ Temps::Temps(int p_heure, int p_minute, int p_seconde) :
+ ^
+Finished building: ../Temps.cpp
+ 
+Building target: ProjetTemps
+Invoking: GCC C++ Linker
+g++  -o "ProjetTemps"  ./Principal.o ./Temps.o   
+Finished building target: ProjetTemps
+ 
+11:32:16 **** Incremental Build of configuration Debug for project ProjetTemps ****
+make all 
+make: rien à faire pour « all ».

@@ -1,0 +1,21 @@
+/*
+ * Temps.cpp
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#include "Temps.h"
+
+namespace labo {
+
+Temps::Temps() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Temps::~Temps() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace labo */

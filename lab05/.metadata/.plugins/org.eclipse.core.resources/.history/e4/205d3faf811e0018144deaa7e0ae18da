@@ -1,0 +1,17 @@
+/*
+ * Temps.h
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#ifndef TEMPS_H_
+#define TEMPS_H_
+
+class Temps {
+public:
+	Temps();
+	virtual ~Temps();
+};
+
+#endif /* TEMPS_H_ */

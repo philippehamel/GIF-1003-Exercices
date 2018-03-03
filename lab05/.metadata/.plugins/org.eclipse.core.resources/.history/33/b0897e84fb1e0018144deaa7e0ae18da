@@ -1,0 +1,54 @@
+/*
+ * Temps.cpp
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#include "Temps.h"
+
+namespace labo {
+
+Temps::Temps() {
+	m_seconde = time(NULL); // nombre de secondes depuis 1970
+	m_heure = m_seconde / 3600; // nombre d'heures depuis 1970
+	m_heure = m_heure % 24; // nombre d'heures aujourd'hui
+	m_heure = m_heure - 5; // nombre d'heures aujourd'hui à Québec(fuseau horaire)
+	m_minute = m_seconde / 60; // nombre de minutes depuis 1970
+	m_minute = m_minute % (24 * 60); // nombre de minutes aujourd'hui
+	m_minute = m_minute % 60; // nombre de minutes dans la dernière heure
+	m_seconde = m_seconde % (24 * 3600); // nombre de secondes aujourd'hui
+	m_seconde = m_seconde % 3600; // nombre de secondes dans la dernière heure
+	m_seconde = m_seconde % 60; // nombre de secondes dans la dernière minute
+}
+
+Temps::~Temps() {
+	// TODO Auto-generated destructor stub
+}
+
+Temps::Temps(int p_heure, int p_minute, int p_seconde) :
+		m_heure(p_minute), m_minute(p_minute), m_seconde(p_seconde) {
+}
+
+std::string Temps::reqTempsFormate() {
+}
+
+int Temps::reqHeure() const {
+}
+
+int Temps::reqMinute() const {
+}
+
+int Temps::reqSeconde() const {
+}
+
+void Temps::asgHeure(int p_heure) {
+}
+
+void Temps::asgMinute(int p_minute) {
+}
+
+void Temps::asgSeconde(int p_heure, int p_minute, int p_seconde) {
+}
+
+} /* namespace labo */

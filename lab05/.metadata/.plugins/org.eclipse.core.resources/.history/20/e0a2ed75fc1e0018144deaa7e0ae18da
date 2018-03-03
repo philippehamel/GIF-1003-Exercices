@@ -1,0 +1,45 @@
+/*
+ * Temps.cpp
+ *
+ *  Created on: 2018-03-03
+ *      Author: etudiant
+ */
+
+#include "Temps.h"
+
+namespace labo {
+
+Temps::Temps() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Temps::~Temps() {
+	// TODO Auto-generated destructor stub
+}
+
+int Temps::getHeure() const {
+	return m_heure;
+}
+
+void Temps::setHeure(int heure) {
+	m_heure = heure;
+}
+
+int Temps::getMinute() const {
+	return m_minute;
+}
+
+void Temps::setMinute(int minute) {
+	m_minute = minute;
+}
+
+int Temps::getSeconde() const {
+	return m_seconde;
+}
+
+void Temps::setSeconde(int seconde) {
+	m_seconde = seconde;
+}
+
+} /* namespace labo */

@@ -1,0 +1,21 @@
+/*
+ * Temps.h
+ *
+ *  Created on: 2018-03-03
+ *      Author: etudiant
+ */
+
+#ifndef TEMPS_H_
+#define TEMPS_H_
+
+namespace labo {
+
+class Temps {
+public:
+	Temps();
+	virtual ~Temps();
+};
+
+} /* namespace labo */
+
+#endif /* TEMPS_H_ */

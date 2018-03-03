@@ -1,0 +1,43 @@
+/*
+ * Temps.h
+ *
+ *  Created on: 2018-03-02
+ *      Author: etudiant
+ */
+
+#ifndef TEMPS_H_
+#define TEMPS_H_
+
+#include <string>
+
+namespace labo {
+
+class Temps {
+public:
+	Temps();
+	Temps(int p_heure, int p_minute, int p_seconde);
+
+	std::string reqTempsFormate();
+
+	int reqHeure() const;
+	int reqMinute() const;
+	int reqSeconde () const;
+	void asgHeure(int p_heure);
+	void asgMinute(int p_minute);
+	void asgSeconde(int p_heure, int p_minute, int p_seconde);
+	int getHeure() const;
+	void setHeure(int p_heure);
+	int getMinute() const;
+	void setMinute(int p_minute);
+	int getSeconde() const;
+	void setSeconde(int p_seconde);
+
+private:
+	int m_heure;
+	int m_minute;
+	int m_seconde;
+};
+
+} /* namespace labo */
+
+#endif /* TEMPS_H_ */
